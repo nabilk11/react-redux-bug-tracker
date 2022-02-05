@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import Login from './Views/Login/Login';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Sidebar from './Views/Sidebar/Sidebar';
 import Viewbugs from './Views/Pages/Viewbugs';
 
@@ -21,7 +21,10 @@ const { auth } = useSelector(state => state)
       {!auth.LoggedIn ? <Login /> :
       <>
       <Sidebar />
-      <Viewbugs/>
+      <Switch>
+        <Route path="/viewbugs"><Viewbugs/></Route>
+      </Switch>
+      
       </>
       }
       </Router>

@@ -13,9 +13,8 @@ export default function Viewbugs() {
     },[bugs.length <1])
   return (
   <div className="bugs-container">
-      <h1>hello</h1>
       {bugs.map((bug, key) => (
-          <Bugcard key={key} props={bug} />
+          <Bugcard key={key} bug={bug} />
       ))}
   </div>
   )

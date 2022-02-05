@@ -5,7 +5,9 @@ Using React Redux to create a Bug Tracker Applications I am calling Unbugify, Ea
 
 ## Color Palette
 Background Color: Dark Slate Grey: rgb(51, 56, 56);
-Seagreenish: rgb(31, 168, 122)
+Seagreenish: rgb(31, 168, 122);
+dark purple: rgb(87, 72, 122);
+Alt Green: rgba(184, 222, 177, 0.903);
 
 # Getting Started with Create React App
 
