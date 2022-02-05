@@ -4,6 +4,7 @@ import Login from './Views/Pages/Login/Login';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Sidebar from './Views/Sidebar/Sidebar';
 import Viewbugs from './Views/Pages/Viewbugs';
+import CreateBug from './Views/Components/BugCreateEdit/Bugform'
 
 import './App.css';
 
@@ -23,6 +24,7 @@ const { auth } = useSelector(state => state)
       <Sidebar />
       <Switch>
         <Route path="/viewbugs"><Viewbugs/></Route>
+        <Router path="/create"><div className="bugs-container"><CreateBug title="Create Bug"/></div></Router>
       </Switch>
       
       </>

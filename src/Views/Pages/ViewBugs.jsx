@@ -28,6 +28,7 @@ export default function Viewbugs() {
     }
   return (
   <div className="bugs-container">
+      <h1>All Current Bugs</h1>
       {bugs.map((bug, key) => (
           <Bugcard key={key} bug={bug} clicked={BugClicked}/>
       ))}
