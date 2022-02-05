@@ -20,7 +20,7 @@ z-index: 10;
 .bug-create form {
     min-width: 80%;
     display: grid;
-    grid-template-columns: 20% 70%;
+    grid-template-columns: 22% 70%;
     column-gap: 8%;
     row-gap: 20px;
 }

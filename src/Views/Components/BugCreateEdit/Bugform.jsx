@@ -33,8 +33,8 @@ export default function Bugform(props) {
         <select name="assigned" id="" onChange={inputChanged} value={bugObject.assigned}>
             <option value="1">Nabil Khan</option>
         </select>
-        <label htmlFor="">Application Version:</label>
-        <input name="version" plasceholder="Application Version" type="text" onChange={inputChanged} value={bugObject.version}/>
+        <label htmlFor="">App Version:</label>
+        <input name="version" placeholder="Application Version" type="text" onChange={inputChanged} value={bugObject.version}/>
         <button type="submit">{props.title}</button>
       </form>
 
