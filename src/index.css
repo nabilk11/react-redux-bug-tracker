@@ -23,6 +23,7 @@ button {
   margin-left: 12px;
   -webkit-box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68); 
   box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68);
+  cursor: pointer;
 }
 
 button:hover {

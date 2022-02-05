@@ -1,0 +1,50 @@
+.sidebar {
+    position: fixed;
+    grid-column: 1;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(51, 56, 56);
+    text-align: center;
+}
+
+.sidebar li {
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.sidebar li:hover {
+    transition: all 0.3s;
+    background-color: orange;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    color: rgb(31, 168, 122);
+    text-shadow: 2px 2px 2px black;
+    margin-top: 20px;
+}
+
+.sidebar .nav-link {
+
+    color: rgb(31, 168, 122);
+    text-shadow: 2px 2px 2px black;
+    text-decoration: none;
+    margin-top: 20px;
+
+
+}
+
+.sidebar button {
+    color: whitesmoke;
+    justify-content: center;
+    padding: 20px 40px 20px 40px;
+    margin-top: 180px;
+
+}
+
+.sidebar .nav-links:hover {
+    transition: all 0.3s;
+    color: orange;
+}
