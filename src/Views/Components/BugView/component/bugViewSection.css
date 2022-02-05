@@ -1,0 +1,17 @@
+.view-section {
+    min-width: 40%;
+    text-align: center;
+    background-color: rgb(31, 168, 122);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68); 
+    box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68);
+    text-shadow: 1px 1px 1px black;
+}
+
+.view-section h2 {
+    margin: 0 0 15px 0;
+    border-bottom: 1px groove black;
+    text-shadow: 1px 1px 1px black;
+}

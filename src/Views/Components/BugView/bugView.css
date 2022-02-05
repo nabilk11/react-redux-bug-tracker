@@ -1,0 +1,30 @@
+.bugview {
+    position: absolute;
+    z-index: 10;
+    width: 60vw;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(51, 56, 56); 
+    margin: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bugview h1 {
+    min-width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3rem;
+    padding-bottom: 20px;
+    border-bottom: 1px groove whitesmoke;
+
+}
+
+.close-button {
+    position: absolute;
+    right: 0;
+    top:0;
+    margin: 10px;
+
+}
