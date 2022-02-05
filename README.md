@@ -1,3 +1,7 @@
+# React Redux Bug Tracker Application
+Using React Redux to create a Bug Tracker Applications I am calling Unbugify, Earlier version was created with just React, and not as thorough.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

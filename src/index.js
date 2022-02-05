@@ -24,8 +24,9 @@ const store = configureStore({
 
 ReactDOM.render(
   // must add Provider to the react app
-  <Provider store={store}/>,
-    <App />,
+  <Provider store={store}>
+    <App />
+    </Provider>,
   document.getElementById('root')
 );
 
