@@ -3,7 +3,7 @@ import ViewSection from "./component/BugviewSection";
 import BugModel from "../../../Models/bugModel";
 import { useDispatch } from "react-redux";
 import { markComplete } from "../../../Controllers/Redux/bugSlice";
-
+import EditPanel from '../BugEditDelete/EditPanel';
 
 import './bugView.css';
 
@@ -13,6 +13,7 @@ export default function Bugview(props) {
     const bug = new BugModel(props.bug);
   return ( 
     <div className="bugview">
+        <EditPanel />
         <button className="close-button" onClick={props.clicked}>Close</button>
         <h1 className="title">{bug.name}</h1>
         <ViewSection title='Details' info={bug.details} />
