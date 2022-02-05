@@ -33,12 +33,12 @@
 }
 .login-panel input {
     width: 33%;
-    height: 18px;
+    height: 2.5vh;
     border-radius: 5px;
     border: none;
     padding: 2px;
-    padding-left: 10px;
-    margin-left: 10px;
+    padding-left: 8px;
+    margin-left: 2.5%;
     -webkit-box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68); 
   box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68);
 }

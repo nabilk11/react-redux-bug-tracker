@@ -1,9 +1,9 @@
 
 // model for bugs or issues 
 
-export default function Bug(bug) {
+function Bug(bug) {
 
-    if (bug != undefined) {
+    if (bug !== undefined) {
         this._id = bug._id;
         this.name = bug.name;
         this.details = bug.details;
@@ -16,3 +16,5 @@ export default function Bug(bug) {
 
     }
 }
+
+export default Bug;

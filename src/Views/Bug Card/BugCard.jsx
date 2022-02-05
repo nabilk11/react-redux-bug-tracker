@@ -2,10 +2,10 @@ import React from 'react';
 import './bugCard.css';
 
 // using props for bug info
-export default function BugCard(props) {
+export default function Bugcard(props) {
 
 const Clicked = () => {
-    props.clicked(props.name);
+    props.Clicked(props.name);
 }
 
 

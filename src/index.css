@@ -19,8 +19,8 @@ button {
   border-radius: 5px;
   text-shadow: 1px 1px 1px black;
   color: whitesmoke;
-  padding: 5px 20px;
-  margin-left: 12px;
+  padding: 1.2% 4%;
+  margin-left: 2.5%;
   -webkit-box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68); 
   box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68);
   cursor: pointer;

@@ -21,6 +21,6 @@ const slice = createSlice({
     }
 })
 
-export default slice.reducers;
+export default slice.reducer;
 
 export const {getBugs, createBugs, markComplete} = slice.actions;

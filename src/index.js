@@ -14,7 +14,7 @@ import userReducer from './Controllers/Redux/userSlice';
 // combining reducers as there can only be one in the store - using combineReducers
 const reducer = combineReducers({
   auth: authReducer,
-  bug: bugReducer,
+  bugs: bugReducer,
   user: userReducer,
 })
 // must configure the store for redux
@@ -25,7 +25,7 @@ const store = configureStore({
 ReactDOM.render(
   // must add Provider to the react app
   <Provider store={store}>
-    <App />
+    <App />,
     </Provider>,
   document.getElementById('root')
 );
