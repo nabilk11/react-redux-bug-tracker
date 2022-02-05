@@ -38,15 +38,6 @@ const submit = (e) => {
         <button type="submit" onClick={submit}>Login</button>
       </form>
       <div className="loginImg">
-          <p></p>
-          <p></p>
-          <p></p><p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
-          <p></p>
       </div>
 
   </div>
