@@ -1,0 +1,26 @@
+html{
+
+--prim-color: rgb(31, 168, 122);
+background-color: rgb(0, 0, 0);
+color: whitesmoke;
+
+}
+
+button {
+  font-weight: 500;
+  background-color: rgb(255, 136, 0);
+  border: none;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px black;
+  color: whitesmoke;
+  padding: 5px 20px;
+  margin-left: 12px;
+  -webkit-box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68); 
+  box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68);
+}
+
+button:hover {
+  background-color: rgb(31, 168, 122);
+  color: whitesmoke;
+}
+

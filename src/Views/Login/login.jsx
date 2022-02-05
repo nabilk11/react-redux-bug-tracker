@@ -4,7 +4,7 @@ import { signIn } from '../../Controllers/Redux/authSlice';
 
 import './login.css';
 
-export default function login() {
+export default function Login() {
     // create dispatch from useDispatch to access the Dispatch function from Redux
     const dispatch = useDispatch();
 
@@ -36,8 +36,18 @@ const submit = (e) => {
         <input type="text" name="name" placeholder="name" onChange={inputChanged} value={formInput.name} />
         <input type="password" name="password" placeholder="********" onChange={inputChanged} value={formInput.password} />
         <button type="submit" onClick={submit}>Login</button>
-
       </form>
+      <div className="loginImg">
+          <p></p>
+          <p></p>
+          <p></p><p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+          <p></p>
+      </div>
 
   </div>
   )
