@@ -13,6 +13,7 @@ export default function Bugform(props) {
   }
   return ( 
   <div className="bug-create">
+    {props.title == "Edit Bug" && <button className="close-button" onClick={props.close}>Close</button>}
       <h1>{props.title}</h1>
       <form action="">
         <label htmlFor="">Name:</label>
