@@ -1,5 +1,10 @@
 # React Redux Bug Tracker Application
-Using React Redux to create a Bug Tracker Applications I am calling Unbugify, Earlier version was created with just React, and not as thorough.
+Using React Redux to create a Bug Tracker Applications I am calling Unbugify, Earlier version was created with just React, and not as thorough. I am exploring React Redux in order to complete this application. I am not the msot creative designer, therefore the styling isn't amazing, but I will be creating future iterations with updated styling, and a smoother overall UI.
+
+## MERN Stack
+This project is done using the MERN Stack - or MongoDB, Express, React, and Node. This was an amazing learning experience for me, as I have done seperate projects using React, Express, Mongo and Node - however, never gotten the chance to explore the full stack in one project.
+
+
 
 
 
