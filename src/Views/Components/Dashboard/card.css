@@ -2,16 +2,21 @@
     border-radius: 8px;
     background-color: rgb(231, 231, 192);
     min-width: 275px;
-    min-height: 200px;
-    margin: 10px;
+    min-height: 190px;
+    margin: 5px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     text-align: center;
-    -webkit-box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68); 
-  box-shadow: 5px 7px 15px 5px rgba(0,0,0,0.68);
+    -webkit-box-shadow: 5px 7px 15px 5px #4a4848ad; 
+  box-shadow: 5px 7px 15px 5px #4a4848ad; 
+  cursor: pointer;
 
+}
+.dashboard-card:hover {
+    transition: all 0.3s;
+    transform: scale(1.05);
 }
 
 .dashboard-card h3 {

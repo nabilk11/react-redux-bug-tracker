@@ -8,6 +8,7 @@ min-width: 275px;
 min-height: 200px;
 border-radius: 8px;
 text-shadow: 1px 1px black;
+cursor: pointer;
 }
 
 .bug-card:hover {
